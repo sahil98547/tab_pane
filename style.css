@@ -1,0 +1,35 @@
+ /* Custom CSS for tabs */
+ .nav-tabs {
+  border-bottom: none;
+  background-color: #f8f9fa;
+  margin-bottom: 15px;
+}
+
+.nav-tabs > li > a {
+  border: none;
+  color: #495057;
+  border-radius: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #007bff;
+  background-color: #fff;
+  border: none;
+  border-bottom-color: transparent;
+}
+
+.tab-content {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
